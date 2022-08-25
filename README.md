@@ -16,6 +16,10 @@ Most of the setup can be automated using Ansible Controller with the included `d
 The integration should be deployed within an Organization.  Choose one, or create a new one.  Note the Organization id in the address bar (`/#/organizations/{id}/details`).
 ![Organization](img/organization_screenshot.png)
 
+#### Credentials
+Create a Github Personal Access token before you create a project (`/#/credentials/4/details`).
+![GitHub PAT](img\Github_PersonalAccessToken.png)
+
 #### Project
 Create a new Project for the integration within the Organization.  The Project connects to your (forked) Git repository.  You’ll need Source Control Credential set up with your (GitHub) Personal Access Token for authentication.  After creation, note the Project id in the address bar (`#/projects/{id}/details`).
 ![Project](img/project_screenshot.png)
