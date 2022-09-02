@@ -11,6 +11,7 @@
           name: "call easytravel configuration UI to apply configuration change"
           uri:
             url: "http://{{ easytravel_host }}:8091/services/ConfigurationService/setPluginEnabled?name={{ easytravel_plugin }}&enabled={{ easytravel_plugin_state }}"
+            method: POST
             status_code: 202
         -
           name: "push Dynatrace custom configuration event"
